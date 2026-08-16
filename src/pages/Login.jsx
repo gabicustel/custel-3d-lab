@@ -35,7 +35,7 @@ export default function Login() {
             color: '#fff', fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 26,
             boxShadow: '0 8px 24px rgba(214,82,143,0.45)', marginBottom: 14,
           }}>C</div>
-          <h1 style={{ fontSize: 24 }}>CUSTEL</h1>
+          <h1 style={{ fontSize: 24 }}>CUSTEL</h1>0
           <span style={{ fontSize: 11.5, letterSpacing: '.16em', color: 'var(--pink-600)', fontWeight: 700 }}>3D LAB</span>
         </div>
 
@@ -54,9 +54,7 @@ export default function Login() {
           Entrar
         </button>
 
-        <p style={{ textAlign: 'center', fontSize: 11.5, color: 'var(--ink-soft)', marginTop: 18 }}>
-          Usuário padrão: admin · Senha padrão: admin123
-        </p>
+        
       </form>
     </div>
   );
